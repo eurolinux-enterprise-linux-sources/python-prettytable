@@ -1,0 +1,12 @@
+diff -Naur -Naru prettytable-0.7.2.orig/prettytable_test.py prettytable-0.7.2/prettytable_test.py
+--- prettytable-0.7.2.orig/prettytable_test.py	2013-04-06 23:43:12.000000000 +0000
++++ prettytable-0.7.2/prettytable_test.py	2014-01-07 18:49:26.017977139 +0000
+@@ -582,7 +582,7 @@
+ 
+     def testPrint(self):
+         print()
+-        print(self.x)
++        #print(self.x)
+ 
+ if __name__ == "__main__":
+     unittest.main()
